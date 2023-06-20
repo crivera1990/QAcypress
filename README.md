@@ -29,3 +29,8 @@ A consumer is looking to find a dealer located near them to get information abou
 * The locator results page loads with dealer listings 
 * The locator results page loads a map with map pins on the locator results page
 * Consumer is able to navigate to dealer site
+
+To run the code, clone or download the files from repo and then:
+- run `npx cypress open` to open the app to run in browser
+- run `npx cypress run` to run the tests headless
+- Further documentation on install/running can be found: https://docs.cypress.io/guides/getting-started/installing-cypress 
