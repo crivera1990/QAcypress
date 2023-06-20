@@ -16,6 +16,17 @@
 * No safari or IE support
 * Have to pay to be able to run tests in parallel (Cypress Cloud)
 
+### To run the code, clone or download the files from repo and then:
+- run `npx cypress open` to open the app to run in browser
+- run `npx cypress run` to run the tests headless
+- Further documentation on install/running can be found: https://docs.cypress.io/guides/getting-started/installing-cypress 
+
+### CI/CD with Azure 
+I have found numerous write ups on documenting the process to hook cypress tests into azure pipelines. These would run headless and output test results inside the pipeliens
+- https://www.lambdatest.com/blog/run-cypress-tests-in-azure-devops-pipeline/
+- https://kailash-pathak.medium.com/how-to-setup-and-run-cypress-test-cases-in-azure-devops-pipeline-b179df86261
+
+
 ### Goal for POC
 
 Scenario #1: Do a locator search
@@ -29,8 +40,3 @@ A consumer is looking to find a dealer located near them to get information abou
 * The locator results page loads with dealer listings 
 * The locator results page loads a map with map pins on the locator results page
 * Consumer is able to navigate to dealer site
-
-To run the code, clone or download the files from repo and then:
-- run `npx cypress open` to open the app to run in browser
-- run `npx cypress run` to run the tests headless
-- Further documentation on install/running can be found: https://docs.cypress.io/guides/getting-started/installing-cypress 
